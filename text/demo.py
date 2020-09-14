@@ -300,9 +300,14 @@ if len(res) != 0: #数据库中查询到了结果，账号和密码匹配
 else:
     print("登陆失败！")
 """
-a = [1,3,4]
-try:
-    res = a[10]
-    print("好好干")
-except:
-    print("就会有好结果")
+# a = [1,3,4]
+# try:
+#     res = a[10]
+#     print("好好干")
+# except:
+#     print("就会有好结果")
+i = 0
+while i<10:
+    for j in range(10):
+        print("i=",i," j=",j)       
+    i=i+1

@@ -128,6 +128,7 @@ for i in account.keys():
 for i in account.values():
     print(i)
 """
+"""
 aaa = "今天的风好大，天气变冷了，该添衣裳了。"
 for i in aaa:
     print(i)
@@ -146,3 +147,7 @@ a = jianfa(9,6)
 b = jianfa()
 print(a)
 print(b)
+"""
+a = 10
+for i in range(a):
+    print(i)
