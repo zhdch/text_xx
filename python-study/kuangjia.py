@@ -53,9 +53,9 @@
 # 测试报告
 # 1.jdk :先设置JAVA_HOME环境变量(里面填jdk的路径(在cmd中运行where java能看到))  # 上下都添加
 #  CLASSPATH环境变量里面和在path里面添加 ;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;  # 上下都添加
-# 2.安装allure-commandline(1.解压到指定文件夹  2.把文件夹里面的bin路径复制粘贴到path变量中去)
+# 2.安装allure-commandline(1.解压到指定文件夹  2.把 allure的bin路径复制粘贴到path变量中去)
 # 3.安装allure-pytest第三方包 (pip3 install allure-pytest -i https://pypi.tuna.tsinghua.edu.cn/simple)
-# 4.重启vscode，管理员身份运行 pytest --alluredir=result
-# 5.把编译的结果翻译成报告 allure generate result -o report --clean 
+# 4.以管理员身份运行重启vscode， 在框架文件夹下，下边cmd终端运行:pytest --alluredir=result
+# 5.把编译的结果翻译成报告:allure generate result -o report --clean 
 # 6.打开测试报告 allure open -h 127.0.0.1 -p 10086 report
-# **所有的case 都写完了，再去做测试报告的生成
+# **所有的case 都写完了，再去做测试 报告的生成

@@ -16,13 +16,13 @@ print(random.randint(1,20))
 #1.pip -V       (查看pip版本号)
 #2.pip list      (查看已安装的第三方包)
 #3.pip install 包名     (安装第三方包) 管理员身份运行cmd来安装
-#4.pip install requests -i 下载地址   (一般都是通过地址下载第三方包的)
+#4.pip install requests -i https://pypi.tuna.tsinghua.edu.cn/simple(一般都是通过地址下载第三方包的)
 #5.pip uninstall 包名     (卸载第三方包)
 #  主要的第三方包:
 # selenium : web自动化测试
 # request : 是用python做http请求的，主要做接口自动化测试， 爬虫等
 # pymysql : 连数据库的包 (连接数据库是为了做接口自动化最后一步) 
-
+# pytest ： 自动化测试框架的包
 
 # 导入自定义包
 #1.创建包：新建一个自定义文件夹，文件夹下边新建一个__init__.py，再把 方法/变量/类的py文件放入文件夹中
