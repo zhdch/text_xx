@@ -148,6 +148,5 @@ b = jianfa()
 print(a)
 print(b)
 """
-a = 10
-for i in range(a):
-    print(i)
+a = {"一班":"文科","二班":"理科","三班":"文科"}
+print(a["二班"])

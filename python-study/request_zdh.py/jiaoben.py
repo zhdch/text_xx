@@ -17,7 +17,7 @@ sql = "select * from t_user where username = 'zhdch'"
 assert len(query(sql)) != 0
 print("接口测试成功")
 
-# 数据和脚本的分离，数据存放在 excel中，通过 pandas读取出来
+# 数据和脚本的分离，数据存放在 excel中，通过 xlrd读取出来
 """
 token = res.json()["data"]["token"]
 url1 = "http://118.24.105.78:2333/inspirer/new"

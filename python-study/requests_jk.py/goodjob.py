@@ -1,11 +1,10 @@
 # 调接口
 import requests
 from dbtools import query   # 直接调 pymysql连接数据库的方法
-
 # 1.构造请求
 url = "http://118.24.105.78:2333/get_title_img"
 r = requests.get(url)
-print(r.text)     # 获取字符串形式的返回值
+# print(r.text)     # 获取字符串形式的返回值
 
 # 2.判断结果，断言实现判断http状态码，和结果码。
 #  status：200 
@@ -24,7 +23,7 @@ for i in data:
     res = query(sql)
     # print(res)
     assert len(res) != 0
-    print("id在数据库当中")
+    # print("id在数据库当中")
 
 
 # 有参数的post接口
