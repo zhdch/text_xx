@@ -3,7 +3,8 @@
 import unittest
 from utils.HTMLTestRunner import HTMLTestRunner
 
-# 1.自动查找所有的测试用例
+# 1.自动查找所有的测试用例 
+# 2.discover找的是case文件夹里面的 unittest.TestCase类，只要继承了它的子类，都能被找到)
 testcase = unittest.defaultTestLoader.discover('case','test_*.py')
 
 # 2.使用htmltestrunner工具来帮我们自动运行所有的case和生成测试报告
