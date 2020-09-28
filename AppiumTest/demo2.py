@@ -13,3 +13,8 @@ desired_caps['resetKeyboard'] = True                        # 设置成appium自
 desired_caps['noReset'] = True                # 绕过登陆
 # 去打开app，并且返回当前app的操作对象
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+
+driver.find_element_by_accessibility_id('')       # 通过aid来定位
+driver.find_element_by_xpath('')              # 通过xpath来定位
+driver.find_element_by_id('')            # 通过id来定位
+driver.find_element_by_android_uiautomator('new UiSelector().text("")')           # 通过文本值来定位
