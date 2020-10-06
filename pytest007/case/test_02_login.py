@@ -4,15 +4,15 @@ import requests
 import os, sys
 sys.path.append(os.getcwd())  
 from utils.dbtools import query  # 直接调 pymysql连接数据库的方法
-from utils.exceltools import read_excel
+from utils.xlrdtools import read_excel
 from utils.filetools import save_file
 
 def test_02_login_sussess():
     # 登陆成功的测试用例
     data_res = read_excel("data\测谈网测试用例.xlsx", "登陆")
 
-    url = data_res[0][2]
-    data = eval(data_res[0][4])
+    url = data_res[0][2]         # 根据excel直接读取
+    data = eval(data_res[0][4])     # eval是读取字典内容
     header = eval(data_res[0][5])
     res = requests.post(url=url, json=data, headers=header)
     print(res.text)

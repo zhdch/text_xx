@@ -5,7 +5,7 @@ import pytest
 import requests
 import os, sys
 sys.path.append(os.getcwd()) 
-from utils.exceltools import read_excel
+from utils.xlrdtools import read_excel
 
 def test_01_lbt():
     data_res = read_excel("data\测谈网测试用例.xlsx", "首页")

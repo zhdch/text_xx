@@ -1,6 +1,5 @@
 import pymysql # 要想用pymysql，就必须要导入它
 
-
 def query(sql):
     # 固定的方法
     db = pymysql.connect(host='118.24.105.78', user='root', password="1qaz!QAZ123***123", db='ljtestdb')

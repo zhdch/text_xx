@@ -3,7 +3,7 @@ from selenium import webdriver         # 导入selenium
 from utils.seleniumtools import find_element         # 导入动态查找
 
 # unittest 的测试用例是用类来管理的
-# @unittest.skip("你先暂停吧")
+@unittest.skip("你先暂停吧")
 class TestAdminUserCount(unittest.TestCase):
 
     @classmethod   # 下边的这个方法是类方法,在类开始的时候执行一次

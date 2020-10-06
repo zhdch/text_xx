@@ -2,7 +2,7 @@ import unittest       # 导入unittest
 from selenium import webdriver         # 导入selenium
 from utils.seleniumtools import find_element         # 导入动态查找
 
-@unittest.skip("都过了，就跳过吧")
+# @unittest.skip("都过了，就跳过吧")
 # unittest 的测试用例是用类来管理的
 class TestCaseIndex(unittest.TestCase):
 
