@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "3VMMGCC1S6I9YFA",
+    "children" : [ {
+      "name" : "25216-MainThread",
+      "children" : [ {
+        "name" : "test_01_lbt",
+        "uid" : "536b998dc706b697",
+        "parentUid" : "e6bd7bf364d96cf4433ec5911793adb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602067382968,
+          "stop" : 1602067383275,
+          "duration" : 307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01_fblg",
+        "uid" : "d8a7b83deb6109c0",
+        "parentUid" : "e6bd7bf364d96cf4433ec5911793adb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602067384323,
+          "stop" : 1602067384571,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02_tjjc",
+        "uid" : "7aa6cdfba6eacdcc",
+        "parentUid" : "e6bd7bf364d96cf4433ec5911793adb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602067383282,
+          "stop" : 1602067383532,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02_login_fail",
+        "uid" : "34b4a0e6293479a8",
+        "parentUid" : "e6bd7bf364d96cf4433ec5911793adb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602067384120,
+          "stop" : 1602067384317,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02_login_sussess",
+        "uid" : "2afe980095940ef9",
+        "parentUid" : "e6bd7bf364d96cf4433ec5911793adb1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602067383537,
+          "stop" : 1602067384114,
+          "duration" : 577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6bd7bf364d96cf4433ec5911793adb1"
+    } ],
+    "uid" : "4d5fb410f2395a434e70a61730814067"
+  } ]
+}

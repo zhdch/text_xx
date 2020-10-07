@@ -1,0 +1,14 @@
+{
+  "data": {
+    "status": true, 
+    "token": "1e70a9a66b027207d9849b7hcdhza5318abbd81ed5af9", 
+    "userinfo": {
+      "headpic": "headimg.jpg", 
+      "nickname": "是的", 
+      "uid": 1333385576
+    }
+  }, 
+  "msg": "登录成功！", 
+  "status": 200
+}
+

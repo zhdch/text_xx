@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Oct 07 18:43:02 CST 2020","Wed Oct 07 18:43:03 CST 2020","307","case","test_01_index","","","","test_01_lbt",""
+"passed","Wed Oct 07 18:43:04 CST 2020","Wed Oct 07 18:43:04 CST 2020","248","case","test_03_inpire","","","","test_01_fblg",""
+"passed","Wed Oct 07 18:43:03 CST 2020","Wed Oct 07 18:43:03 CST 2020","250","case","test_01_index","","","","test_02_tjjc",""
+"passed","Wed Oct 07 18:43:04 CST 2020","Wed Oct 07 18:43:04 CST 2020","197","case","test_02_login","","","","test_02_login_fail",""
+"passed","Wed Oct 07 18:43:03 CST 2020","Wed Oct 07 18:43:04 CST 2020","577","case","test_02_login","","","","test_02_login_sussess",""
