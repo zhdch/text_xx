@@ -311,3 +311,9 @@ while i<10:
     for j in range(10):
         print("i=",i," j=",j)       
     i=i+1
+
+a = 10
+b = []
+for i in range(3, a):
+    b.append(i)
+print(b)

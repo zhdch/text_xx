@@ -1,29 +1,4 @@
-# a = 1
-# b = []
-# while a <= 1000:
-#     if a % 2 == 0:
-#         b.append(a)
-#     a = a + 1
-# print(len(b))
-
-# a = [22,33,1,4,5,6,7]
-# for i in a:
-#     for j in i:
-
-# a = int(input("请输入数字："))
-# b = []
-# for i in range(a):
-#     if a % (i+1) == 0:
-#         b.append(i+1)
-# print(b)
-
-# a = {"username":"乔美丽","username":"王美丽","username":"郭然然","username":"周美丽"}
-# for i in a:
-#     if "美丽" in a:
-#         print(a)
-# a = int(input("请输入第一个数字："))
-# b = int(input("请输入第二个数字："))
-# print("它们的和等于",a+b)
+# 求出1000以内偶数的个数
 a = 1
 b = []
 while a <=1000:
@@ -32,6 +7,7 @@ while a <=1000:
     a = a + 1
 print(len(b))
 
+# 从小到大将列表数字排序
 a = [2,1,13,5,37,9]
 n = len(a)-1
 while n > 0:
@@ -54,7 +30,7 @@ for i in range(a):
         b.append(i+1)
 print(b)
 
-
+# 查询出带有美丽的名字
 a = {"username":"乔美丽","username1":"郭然然","username2":"周美丽","username3":"王美丽"}
 b = []
 c = "美"

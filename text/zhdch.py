@@ -148,6 +148,39 @@ b = jianfa()
 print(a)
 print(b)
 """
-a = {"一班":"文科","二班":"理科","三班":"文科"}
-print(a["二班"])
-print(a.get("三班"))
+# a = {"一班":"文科","二班":"理科","三班":"文科"}
+# print(a["二班"])
+# print(a.get("三班"))
+class BaBa():
+    money = "1E"
+    def making_money(self):
+        print("他爸有个小目标")
+
+# 类的继承，Son:子类   baba:父类
+# 继承的好处：子类可以继承父类的属性和方法
+# 子类可以重写父类的属性和方法
+
+class Son(BaBa):
+    name = "wsc"
+    money = "-10E"
+    def make_money(self):
+        print("王同学不要小目标了")
+        return 886
+
+b = BaBa()
+s = Son()
+print(s.money)
+print(b.money)
+print(s.make_money())
+s.make_money()
+s.making_money()
+
+
+# 输入一个数字，判断 4 2 5/2 10 的因数有哪些？
+a = int(input("数字："))
+b = []
+for i in range(a):
+    if a % (i+1) == 0:
+        b.append(i+1)
+print(b)
+

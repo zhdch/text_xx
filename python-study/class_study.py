@@ -24,7 +24,7 @@ print(p.yanzhi)
 
 class BaBa():
     money = "1E"
-    def make_money(self):
+    def making_money(self):
         print("他爸有个小目标")
 
 # 类的继承，Son:子类   baba:父类
@@ -42,7 +42,9 @@ b = BaBa()
 s = Son()
 print(s.money)
 print(b.money)
+print(s.make_money())
 s.make_money()
+s.making_money()
 
 
 class Cat():
